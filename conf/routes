@@ -12,3 +12,4 @@ GET     /                           controllers.TaskController.index
 # Tasks
 GET     /tasks                      controllers.TaskController.tasks
 POST    /tasks                      controllers.TaskController.newTask
+DELETE  /tasks/:id                  controllers.TaskController.deleteTask(id: Int)
